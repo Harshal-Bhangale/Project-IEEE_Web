@@ -4,7 +4,7 @@
 <img src="assets/img/logos/LOGO-SVGwhite.png" height="100" />
 </p>
 
-<h1 align="center">Official Website of ShutterBugs MITAOE</h1>
+<h1 align="center">Official Website of IEEE RSCOE SB/h1>
 
 <h2 align="center">🌐 Website</h2>
 <p align="center">
