@@ -15,7 +15,7 @@
 
   <a href="https://www.instagram.com/rscoe_ieee_sb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank"><img height="28" src = "https://img.shields.io/badge/-Instagram-e95950?style=for-the-badge&logo=Instagram&logoColor=white"></a>
 
-  <a href="https://linktr.ee/ieee_rscoe_sb" target="_blank"><img height="28"src = "https://img.shields.io/badge/linktree-1de9b6?logo=linktree&logoColor=white"></a>
+  <a href="https://linktr.ee/ieee_rscoe_sb" target="_blank"><img height="28" src = "https://img.shields.io/badge/linktree-1de9b6?logo=linktree&logoColor=white"></a>
 
   <a href="mailto:ieeerscoe@jspmrscoe.edu.in" target="_blank"><img height="28" src = "https://img.shields.io/badge/gmail-EA4335?&style=for-the-badge&logo=gmail&logoColor=white"></a>
 
