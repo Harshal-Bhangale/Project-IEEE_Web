@@ -114,11 +114,11 @@ particlesJS("particles-js", {
             repulse: { distance: 200, duration: 0.4 },
             push: { particles_nb: 4 },
             remove: { particles_nb: 2 }
-        }
+        },
+
     },
     retina_detect: false
 });
-
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
@@ -136,5 +136,37 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+// Function to update Particle.js configuration based on screen width
+function updateParticleConfig() {
+    var screenWidth = window.innerWidth;
+    var number, density, size;
+
+    // Adjust parameters based on screen width
+    if (screenWidth < 768) {
+        // For small screens
+        number = 50;
+        density = { "enable": true, "value_area": 800 };
+        size = 3;
+    } else {
+        // For larger screens
+        number = 100;
+        density = { "enable": true, "value_area": 1000 };
+        size = 4;
+    }
+
+    // Initialize Particle.js with updated parameters
+    initializeParticles(number, density, size);
+}
+
+// Call updateParticleConfig() when the page loads
+window.onload = updateParticleConfig;
+
+// Call updateParticleConfig() when the window is resized
+window.onresize = updateParticleConfig;
+
+
+
+
+
 
 
