@@ -50,7 +50,7 @@ canvas {
 /* ---- particles.js container ---- */
 #particles-js {
   position: relative;
-  display: block;
+  display: grid;
   width: 100%;
   height: 100%;
   background-color: #1F4591;
@@ -330,6 +330,24 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+}
+
+.ieee-rsoce-sb-animated-text {
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+
+  /* height: 100vh; */
+  /* display: inline-block; */
+
+
+
+  /* opacity: 0; */
+  /* Initially hidden */
+  /* transform: translateY(20px); */
+  /* Initially shifted down */
+  /* transition: opacity 1s ease, transform 1s ease; */
+  /* Animation transition */
 }
 
 
@@ -11891,8 +11909,8 @@ pills-peach-gradient nav-item nav-link active {
 @media only screen and (max-width: 768) {
   #particles-js {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
