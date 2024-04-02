@@ -165,13 +165,8 @@ window.onload = updateParticleConfig;
 window.onresize = updateParticleConfig;
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    // Select the animated text
-    const animatedText = document.querySelector('.ieee-rsoce-sb-animated-text');
 
-    // Trigger animation when the page loads
-    setTimeout(function () {
-        animatedText.style.opacity = '1';
-        animatedText.style.transform = 'translateY(0)';
-    }, 500); // Delay for half a second
-});
+
+
+
+
